@@ -14,6 +14,8 @@
 		742D91691F9076220023ACC9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 742D91671F9076220023ACC9 /* LaunchScreen.storyboard */; };
 		742D91741F9076220023ACC9 /* TestTableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742D91731F9076220023ACC9 /* TestTableTests.swift */; };
 		742D917F1F9076220023ACC9 /* TestTableUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742D917E1F9076220023ACC9 /* TestTableUITests.swift */; };
+		742D918D1F90768B0023ACC9 /* MyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742D918C1F90768B0023ACC9 /* MyTableViewCell.swift */; };
+		742D918F1F909FF00023ACC9 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742D918E1F909FF00023ACC9 /* Product.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		742D917A1F9076220023ACC9 /* TestTableUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestTableUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		742D917E1F9076220023ACC9 /* TestTableUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTableUITests.swift; sourceTree = "<group>"; };
 		742D91801F9076220023ACC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		742D918C1F90768B0023ACC9 /* MyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewCell.swift; sourceTree = "<group>"; };
+		742D918E1F909FF00023ACC9 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				742D91651F9076220023ACC9 /* Assets.xcassets */,
 				742D91671F9076220023ACC9 /* LaunchScreen.storyboard */,
 				742D916A1F9076220023ACC9 /* Info.plist */,
+				742D918C1F90768B0023ACC9 /* MyTableViewCell.swift */,
+				742D918E1F909FF00023ACC9 /* Product.swift */,
 			);
 			path = TestTable;
 			sourceTree = "<group>";
@@ -260,7 +266,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				742D91611F9076220023ACC9 /* ViewController.swift in Sources */,
+				742D918F1F909FF00023ACC9 /* Product.swift in Sources */,
 				742D915F1F9076220023ACC9 /* AppDelegate.swift in Sources */,
+				742D918D1F90768B0023ACC9 /* MyTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
